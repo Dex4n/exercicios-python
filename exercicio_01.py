@@ -5,9 +5,7 @@ class Pessoa:
         else:
             return "Menor de idade!"
 
-
 auxIdadePessoa = int(input("Digite a idade da pessoa: "))
-
 
 p1 = Pessoa()
 result = p1.maiorIdade(auxIdadePessoa)
