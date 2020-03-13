@@ -1,7 +1,6 @@
 #6 - Faça um algoritmo que leia um nº inteiro e mostre uma mensagem indicando se este número é par ou ímpar, e se é positivo ou negativo
 
-
-number = int(input("Digite um número: \n"))
+number = int(input("Digite um número inteiro: \n"))
 
 if (number >= 0):
     print("O número (%d) digitado é positivo!" %(number))
