@@ -14,8 +14,6 @@ class Troco:
             valorTroco = valorPago - valorProduto
             return "Valor de troco devido: " + str(valorTroco) + "!"
 
-
-
 auxValorProduto = int(input("Digite o valor do produto: "))
 auxValorPago = int(input("Digite o valor pago: "))
 
