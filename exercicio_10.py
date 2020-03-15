@@ -1,7 +1,6 @@
 #10 - receba três notas de um aluno e informe se ele passou ou reprovou.
 
 class Aluno:
-    
     def __init__(self, n1, n2, n3):
         self.n1 = n1
         self.n2 = n2
