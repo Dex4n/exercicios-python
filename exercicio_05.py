@@ -5,6 +5,5 @@ number = int(input("Digite um número: \n"))
 if (number >= 0):
     print("O número (%d) digitado é positivo!" %(number))
 
-
 elif (number < 0):
     print("O número (%d) digitado é negativo!" %(number))
