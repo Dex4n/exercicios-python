@@ -1,4 +1,4 @@
 #test_pull_request_other_branch
-#branch: secondary_access
+#branch name: secondary_access
 
-print("Quero testar fazer um commit na branch (secondary_access) para fazer um pull request e posterior merge")
+print("Estou testando commitar este arquivo na branch (secondary_access) para abrir um pull request!")
