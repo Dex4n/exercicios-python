@@ -2,7 +2,6 @@
 # depois, informe o menor, número, o maior número, a soma dos números
 # informados e a média aritmética dos números informados.
 
-
 class Numero:
     def ler_numeros(self):
 
@@ -13,7 +12,6 @@ class Numero:
         for i in range(tamanho_range):
             lista.append(float(input("Digite o %d° número " % contador)))
             contador += 1
-
         return lista
 
     def encontrar_maior(self, lista):
@@ -40,28 +38,18 @@ class Numero:
 
         for valor in lista:
             soma_total += valor
-
         return soma_total
 
     def calcular_media(self, soma, lista):
 
         media_numeros = soma / len(lista)
-
         return media_numeros
 
-
-
-
-#Instanciando uma variável do tipo da classe: Numero
 numero = Numero()
 
-#Criando uma variável que chama o método lerNumeros da classe Numero e atribui o retorno a variável criada
 numeros_lista = numero.ler_numeros()
 
-
-
 #print("Maior número: %d" %min(lista))
-
 maior = numero.encontrar_maior(numeros_lista)
 print("Maior número: %d" %maior)
 
